@@ -1,0 +1,14 @@
+Example 1:
+$ grep thon /usr/share/dict/words
+
+Example 2: Match String regardless of case
+$ grep -i python /usr/share/dict/words
+
+Example 3: Reserved Character . (dot)
+$ grep l.rts /usr/share/dict/words
+
+Example 4: Reserved Character ^ (circumflex)
+$ grep ^fruit  /usr/share/dict/words
+
+Example 5: Reserved Character $ (dollar sign)
+$ grep cat$ /usr/share/dict/words
